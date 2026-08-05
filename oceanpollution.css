@@ -1,0 +1,147 @@
+body{
+    text-align: center;
+    background-color: #4cb84c;
+}
+
+
+h1{
+    border: 7px dashed;
+    width: 1000px;
+}
+
+.div{
+    border: 7px solid;
+    border-color: black;
+    background-color: blue;
+
+    color: antiquewhite;
+
+}
+
+.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar li {
+            float: left;
+        }
+
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            background-color: #111;
+        }
+
+
+.div{
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 30px;
+max-width: 1000px;
+border: 3px solid;
+margin: 40px auto;
+background-color: darkblue;
+}
+
+.div > h1 {
+text-align: center;
+margin-top: 0;
+margin-bottom: 30px;
+}
+
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.side{
+display: flex;
+align-items: stretch;
+gap: 40px;
+
+}
+
+.text,
+.image{
+width: 50%;
+height: 350px;
+box-sizing: border-box;
+border: 3px solid white;
+border-radius: 10px;
+}
+
+.text{
+padding: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+image{
+overflow: hidden;
+}
+
+.image img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+.card {
+    width: 350px;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+    text-align: center;
+    color: #006064;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card p {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 12px;
+    border-left: 5px solid #0097a7;
+    border-radius: 8px;
+    margin: 10px 0;
+    color: #333;
+    line-height: 1.6;
+    transition: background 0.3s ease;
+}
+
+.card p:hover {
+    background: #ffffff;
+}
+
+
